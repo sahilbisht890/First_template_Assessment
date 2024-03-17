@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 /* iPads (portrait and landscape) */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
 
     html {
         font-size: 16px;
@@ -83,90 +82,4 @@ width: 20%;
     text-align: center;
 }
 
-=======
-/* iPads (portrait and landscape) */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-    html {
-        font-size: 16px;
-    }
-
-
-    .introPlayButton {
-        display: none;
-    
-    }     
-
-    .introMainContent
-{   
-    width: 24rem;
-    padding: 12% 0 0 2%
-}
-
-.notForpad{
-    display: none
-}
-.introHeading 
-{
-    font-size: 3rem;
-
-}
-.introSlider {
-    margin-top: 10rem
-}
-
-.newArrivalSlider > div
-{
-    width: 19%;
-    height: 12rem
-}
-
-.userImage {
-    
-    left: 13%;
-    top: 22%
-    
-}
-
-.reviewBorder {
- 
-    width: 160px;
-    top: 26%;
-    left: 12%
-}
-
-
-.topIntroPage
-{
-    padding:0px 2% 16% 2%
-}
-
-.topIntroPage
-{
-width: 100%;
-padding: 2% 5%;
-background-image: url(./images/back2forpad.jpg);
-background-size: cover;
-position: relative;
-
-}
-
-.introSlider > div 
-{
-    width: 30px;
-}
-.readMore {
-width: 20%;
-}
-.subscribe{
-    width: 100%;
-}
-
-.email .subscribe
-{
-    width: 40%;
-    text-align: center;
-}
-
->>>>>>> b4d1b2a35a4b079258146e1cc2cb136ba0140a46
 }
