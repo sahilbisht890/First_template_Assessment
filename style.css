@@ -327,7 +327,8 @@ width: 20%;
 .aboutAnimal > .animal:hover
 
 {
-    border: 2px solid #0cd7f7
+    border: 2px solid #0cd7f7;
+    cursor: pointer;
 }
 
 .sliderBox:hover{
