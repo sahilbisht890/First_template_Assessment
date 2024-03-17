@@ -1,29 +1,66 @@
 @media only screen 
   and (max-device-width: 767px) {
 
+
+
     html{
         font-size: 14px;
     }
 
-    .navbar ,.navbarThreeLine,.introSlider,.topNav,.introPlayButton,.SubtextNotForMobile,.notForMobile
+    .navbar ,.navbarThreeLine,.introSlider,.topNav,.introPlayButton,.arrivalSubtext,.notForMobile
+    ,.infoText
     {
         display: none;
     }
+    .infoOne
+    {
+        width: 15%;
+        padding: 0;
+        margin: 0;
+    
+    }
 
-.navbarMobile,.arrivalSubtextMobile,.aboutSubtext
+.email
+{
+    flex-direction: column;
+}
+
+    .aboutSection,.formSection,.infoOne
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+.arrivalSubtextMobile,.aboutSubtext,.reviewText,.navbarMobile
+
 {
  display: block;    
  font-size: 1rem;
  text-align: justify;
 }
 
+.navbarMobile
+{
+
+    font-size: 2rem;
+    
+}
+
+.reviewText{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
 .topIntroPage{
     display: flex;
     flex-direction: column;
-    padding:2% 5%;
+    padding:2% 5% 8% 5%;
     background-image: none;
     background-color: #032735;
-    height: 90vh;
+    height: auto;
 
 }
 .topIntroPage  > div ,.aboutSubtext,.readMore
@@ -87,13 +124,19 @@
     background-size:100% 100%;
 }
 
-.aboutBirds,.ourBirdAndAnimal,.birdPictureSection
+.aboutBirds,.ourBirdAndAnimal,.birdPictureSection,.reviewSection,.subsSection
 
 {
     padding:4% 5%;
 }
 
-.aboutBirds ,.aboutBirds > div
+.info
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.aboutBirds ,.aboutBirds > div,.reviewUser,.subscribe,.form ,.info
 {
     width: 100%;
 }
@@ -111,11 +154,64 @@
     height: 18rem;
 }
 
-.OurBirdAndAnimal
+.OurBirdAndAnimal,.subscribe
 {
     font-size: 1.5rem;
 }
 
+.seeMore
+{
+    width: 30%;
+}
 
+.reviewUser,.review
+{
+    padding: 0;
+    margin: 0;
+}
 
+.review{
+    padding: 50% 2% 2% 2%;
+    box-shadow: 2px 3px 5px black;
+}
+.userImage {
+    left: 11%;
+    top: 16%
+}
+
+.reviewBorder {
+    top: 21%;
+    left: 9%;
+    width: 144px
+  }
+  .reviewHeading
+  {
+    padding-bottom: 6%;
+  }
+
+  .reviewbottom,.map
+  {
+    padding-top: 4%;
+  }
+
+  .subscribe
+  {
+    text-align: center;
+  }
+
+  .email
+  {
+    border: none;
+  }
+
+  .subscribe
+  {
+    margin: 5% 0;
+    padding: 5% 0;
+  }
+
+  .formSection
+  {
+      width: 80%;
+  }
 }
