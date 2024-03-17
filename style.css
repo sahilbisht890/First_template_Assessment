@@ -42,12 +42,11 @@ body > div ,.introLine > div ,.introLine,.newArrivalContentContainer > div,.Arri
 {
 
 width: 100%;
- padding:0 2%;
- height: 125vh;
- background-image: url('./images/layer_1.jpg');
- background-size: 100% 125vh;
- background-repeat: no-repeat;
- position: relative;
+padding: 0 2% 17% 2%;
+background-image: url(./images/layer_1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+position: relative
 
 }
 
@@ -85,8 +84,8 @@ ul{
 
 .introMainContent{
     clear: both;
-    width: 50%;
-    padding: 19.5% 0 0 2%;
+    width: 48%;
+    padding: 19.5% 0 0 1%
 
 }
 

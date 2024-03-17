@@ -1,0 +1,61 @@
+/* iPads (portrait and landscape) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    html {
+        font-size: 16px;
+    }
+
+
+    .introPlayButton {
+        width: 9%;
+        height: 12%;
+        top: 39%;
+        left: 75%;
+    }
+
+    .introMainContent
+{   
+    width: 55%;
+    padding: 17% 0 0 2%
+}
+
+.notForpad{
+    display: none
+}
+.introHeading 
+{
+    font-size: 3rem;
+
+}
+.introSlider {
+    margin-top: 10.5rem
+}
+
+.newArrivalSlider > div
+{
+    width: 19%;
+    height: 12rem
+}
+
+.userImage {
+    
+    left: 13%;
+    top: 22%
+    
+}
+
+.reviewBorder {
+ 
+    width: 160px;
+    top: 26%;
+    left: 12%
+}
+
+.subscribe {
+    width: 100%;
+    display: flex;
+    
+}
+
+
+}
