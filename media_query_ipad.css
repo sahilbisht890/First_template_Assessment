@@ -7,16 +7,14 @@
 
 
     .introPlayButton {
-        width: 9%;
-        height: 12%;
-        top: 39%;
-        left: 75%;
-    }
+        display: none;
+    
+    }     
 
     .introMainContent
 {   
-    width: 55%;
-    padding: 17% 0 0 2%
+    width: 24rem;
+    padding: 12% 0 0 2%
 }
 
 .notForpad{
@@ -28,7 +26,7 @@
 
 }
 .introSlider {
-    margin-top: 10.5rem
+    margin-top: 10rem
 }
 
 .newArrivalSlider > div
@@ -56,6 +54,32 @@
     display: flex;
     
 }
+
+.topIntroPage
+{
+    padding:0px 2% 16% 2%
+}
+
+.topIntroPage
+{
+width: 100%;
+padding: 2% 5%;
+background-image: url(./images/back2forpad.jpg);
+background-size: cover;
+position: relative;
+
+}
+
+.introSlider > div 
+{
+    width: 30px;
+}
+
+
+
+
+
+
 
 
 }

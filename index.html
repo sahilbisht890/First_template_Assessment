@@ -16,10 +16,44 @@
     <!-- This is intro page of template containing navbar  and first Interaction for user  -->
 
     <div class="topIntroPage">
-        <div class="topLeftContent">
-            <div class="navbarMobile">&#9776</div>
+        <div class="introDate">
+            <pre>
+02
+&#8213
+01
+</pre>
+        </div>
 
-            
+        <div class="introDateSecond">
+            <pre>
+            02
+            &#8213
+            01
+            </pre>
+        </div>
+
+        <div class="topLeftContent">
+
+            <div class="navbarMobileContainer">
+                <input type="checkbox" id="nav-toggle">
+                <div class="navigation">
+                    <label for="nav-toggle">&times;</label>
+                    <ul> 
+                        <!-- This is navbar showed at mobile display  -->
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbarMobile"><label for="nav-toggle"> &#9776</label>
+                </div>
+
+            </div>
+
+
+
+
             <div class="introLogo">
                 <!-- Contain the logo image and its name BIRDIM -->
                 <div class="logoPic">
@@ -45,7 +79,7 @@
 
         </div>
 
-        <div class="mobileIntroPic"><img src="./images/mobileBird.webp" alt="BirdPic" class="mobileIntroPic"/></div>
+        <div class="mobileIntroPic"><img src="./images/mobileBird.webp" alt="BirdPic" class="mobileIntroPic" /></div>
 
         <div class="topRightContent">
             <div class="topNav">
@@ -120,7 +154,7 @@
             <!-- Contains the New Arrival heading  -->
             <div class="arrivalHeading">
                 <div class="arrivalLogo">
-                    <img src="./images/dove_copy_2.png" alt="Logo" class="doveOrangeLogo"/>
+                    <img src="./images/dove_copy_2.png" alt="Logo" class="doveOrangeLogo" />
                 </div>
                 <div class="newArrival">New <span>Arrival</span><span>&#8226;</span> </div>
             </div>
@@ -201,7 +235,7 @@
 
         </div>
 
-        
+
         <div class="arrivalSubtextMobile">
             <!-- Subtext on the new Arrival -->
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eaque ad aperiam
@@ -248,22 +282,38 @@
 
     <div class="ourBirdAndAnimal">
         <div class="heading">
-            <div class="arrivalLogo"><img src="./images/dove_copy_2.png" alt="" class="logo"/></div>
+
+            <!-- This is the heading of the Section  -->
+            <div class="arrivalLogo"><img src="./images/dove_copy_2.png" alt="" class="logo" /></div>
             <div class="newArrival OurBirdAndAnimal">Our Birds And <span>Animals</span><span>&#8226;</span></div>
         </div>
+
+        <!-- Text of the Section -->
         <div class="arrivalSubtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est animi in
             mollitia doloremque veniam! Itaque ullam, dolore iure mollitia.</div>
     </div>
 
+       
+      <!-- This consist of the pictures collage of the animal and birds -->
 
     <div class="birdPictureSection">
+
+        <!-- container to make the collage  -->
         <div class="pictureSection">
             <div class="leftPictureSection">
+
+                <!-- left section ,this section consists of two images in column  -->
+
                 <div class="birdOne birdImage">
                     <img src="./images/rectangle_12.jpg" alt="Bird" class="Bird" />
+
+                    <!-- This is used to show the overlay effect when mouse is over the image  -->
                     <div class="overlay-content">
+
+                        <!-- this is heart icon  -->
                         <div class="heart-icon">&#10084;</div>
 
+                        <!-- this is search icon -->
                         <div class="search-icon"><i class="fa fa-search"></i></div>
                     </div>
                 </div>
@@ -277,6 +327,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- this is right picture section it contains two parts  -->
             <div class="rightPictureSection">
                 <div class="topRight birdImage">
                     <img src="./images/rectangle_12_copy.jpg" alt="" class="Bird" />
@@ -285,6 +337,8 @@
                         <div class="search-icon"><i class="fa fa-search"></i></div>
                     </div>
                 </div>
+
+                <!-- this is bottom right section contains two section -->
                 <div class="bottomRight">
                     <div class="subPartLeft birdImage">
                         <img src="./images/rectangle_12_copy_2.jpg" alt="" class="Bird" />
@@ -301,7 +355,7 @@
                                 <div class="heart-icon">&#10084;</div>
 
                                 <div class="search-icon"><i class="fa fa-search"></i></div>
-                              </div>
+                            </div>
                         </div>
                         <div class="bottomSubpartRight birdImage">
                             <img src="./images/rectangle_12_copy_4.jpg" alt="" class="Bird" />
@@ -309,12 +363,14 @@
                                 <div class="heart-icon">&#10084;</div>
 
                                 <div class="search-icon"><i class="fa fa-search"></i></div>
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <div class="arrivalSubtextMobile">
             <!-- Subtext on the new Arrival -->
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum eaque ad aperiam
@@ -322,12 +378,14 @@
         </div>
 
 
+        <!-- this is see more button -->
         <div class="seeMorePicture">
             <div class="seeMore readMore">See More</div>
 
         </div>
     </div>
 
+    <!-- this is testnomial section  -->
     <div class="reviewSection">
         <div class="reviewHeading">
             <div class="heading">
@@ -337,32 +395,41 @@
         </div>
 
         <div class="reviewUser">
-         <div class="userImage">
-            <img src="./images/img.png" alt="UserImage" class="UserImage" />
-         </div>
-
-         <div class="reviewBorder">
-
-         </div>
-
-         <div class="review">
-               <div class="reviewName">
-                <i class="fa fa-quote-left" style="font-size: 1.7rem;"></i>Alex ilby
-               </div>
-               <div class="reviewText">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, consequatur autem suscipit, rerum possimus et unde maiores animi ex ab nemo mollitia quos officia architecto quisquam error quibusdam voluptatibus asperiores?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolore accusamus praesentium quae voluptas ut obcaecati officia rerum. Porro ducimus veritatis voluptas nam nihil doloremque recusandae ipsum iste quidem cumque?
+            <!-- this contains user image  -->
+            <div class="userImage">
+                <img src="./images/img.png" alt="UserImage" class="UserImage" />
             </div>
-            <div class="RightQuote"><img src="./images/quote-left_copy.png" alt="" class="rightQuote" />
-            </div>
-         </div>
-         <div class="reviewbottom">
-            <div class="threeDots"><img src="./images/three_dots.png" alt="MoveToNext" class="src"/></div>
+          <!-- this is used to attach border around the image -->
+            <div class="reviewBorder">
 
-         </div>
+            </div>
+
+            <div class="review">
+                
+                <div class="reviewName">
+                    <i class="fa fa-quote-left" style="font-size: 1.7rem;"></i>Alex ilby
+                </div>
+
+                <div class="reviewText">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, consequatur autem suscipit, rerum
+                    possimus et unde maiores animi ex ab nemo mollitia quos officia architecto quisquam error quibusdam
+                    voluptatibus asperiores?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolore accusamus praesentium quae
+                    voluptas ut obcaecati officia rerum. Porro ducimus veritatis voluptas nam nihil doloremque
+                    recusandae ipsum iste quidem cumque?
+                </div>
+                <div class="RightQuote"><img src="./images/quote-left_copy.png" alt="" class="rightQuote" />
+                </div>
+            </div>
+            <div class="reviewbottom">
+                <div class="threeDots"><img src="./images/three_dots.png" alt="MoveToNext" class="src" /></div>
+
+            </div>
 
         </div>
     </div>
+
+    <!-- This is small section for Subscribe to our newsletter -->
 
     <div class="subsSection">
 
@@ -373,75 +440,82 @@
                 <div class="subscribe readMore">Subscribe</div>
             </div>
         </div>
-    
-    </div>
 
-<div class="callbackSection">
-    <div class="topContentCallback">
-        <div class="callbackHeading arrivalHeading">
-            <div class="arrivalLogo">
-                <img src="./images/dove_copy_2.png" alt="Logo" class="doveOrangeLogo" />
-            </div>
-            <div class="newArrival">Request A <span>Call Back</span><span>&#8226;</span> </div>
-        </div>
     </div>
-    <div class="map">
-        <div class="formSection">
-            <div class="form">
-             <form action="">
-                <input type="text" class="text" placeholder="Your Name">
-                <input type="Email" class="text" placeholder="Email">
-                <input type="number" class="text" placeholder="Phone Number">
-                <input type="text" class="text" placeholder="Message">
-                <div class="readMore">Send</div>
-             </form>
-            </div>
-            <div class="info">
-                <div class="infoOne">
-                    <div class="infoLogo"><img src="./images/maps-and-flags_copy.png" alt="Position" class="mapLogo" /></div>
-                    <div class="infoText">It is a long Established Fact that</div>
-                
+    <!-- This is call back section ,containing form  -->
+
+    <div class="callbackSection">
+        <div class="topContentCallback">
+            <div class="callbackHeading arrivalHeading">
+                <div class="arrivalLogo">
+                    <img src="./images/dove_copy_2.png" alt="Logo" class="doveOrangeLogo" />
                 </div>
-                <div class="infoOne">
-                    <div class="infoLogo">
-                          <img src="./images/icon.png" alt="Phone" class="phoneLogo" />
+                <div class="newArrival">Request A <span>Call Back</span><span>&#8226;</span> </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="formSection">
+
+                <!-- this is a form  -->
+                <div class="form">
+                    <form action="">
+                        <input type="text" class="text" placeholder="Your Name">
+                        <input type="Email" class="text" placeholder="Email">
+                        <input type="number" class="text" placeholder="Phone Number">
+                        <input type="text" class="text" placeholder="Message">
+                        <div class="readMore">Send</div>
+                    </form>
+                </div>
+                <div class="info">
+                    <div class="infoOne">
+                        <div class="infoLogo"><img src="./images/maps-and-flags_copy.png" alt="Position"
+                                class="mapLogo" /></div>
+                        <div class="infoText">It is a long Established Fact that</div>
+
                     </div>
-                    <div class="infoText">+1 12354546654</div>
-                
-                </div>
-                <div class="infoOne">
-                    <div class="infoLogo">
-                        <img src="./images/envelope_1.png" alt="Phone" class="phoneLogo envelope" />
+                    <div class="infoOne">
+                        <div class="infoLogo">
+                            <img src="./images/icon.png" alt="Phone" class="phoneLogo" />
+                        </div>
+                        <div class="infoText">+1 12354546654</div>
+
                     </div>
-                    <div class="infoText">demo@gmail.com</div>
-                
+                    <div class="infoOne">
+                        <div class="infoLogo">
+                            <img src="./images/envelope_1.png" alt="Phone" class="phoneLogo envelope" />
+                        </div>
+                        <div class="infoText">demo@gmail.com</div>
+
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
-</div>
 
-<div class="footer">
-    <div class="socialMedia">
-        <div class="platforms">
-            <img src="./images/facebook-logo-button.png" alt="Facebook" class="src" />
+    <!-- This is a footer section -->
+    <div class="footer">
+        <div class="socialMedia">
+            <!-- This consist of social media platforms  -->
+            <div class="platforms">
+                <img src="./images/facebook-logo-button.png" alt="Facebook" class="src" />
+            </div>
+            <div class="platforms">
+                <img src="./images/twitter-logo-button.png" alt="Twitter" class="src" />
+            </div>
+            <div class="platforms">
+                <img src="./images/linkedin.png" alt="LinkedId" class="src" />
+            </div>
+            <div class="platforms">
+                <img src="./images/instagram.png" alt="Instagram" class="src" />
+            </div>
         </div>
-        <div class="platforms">
-            <img src="./images/twitter-logo-button.png" alt="Twitter" class="src" />
-        </div>
-        <div class="platforms">
-            <img src="./images/linkedin.png" alt="LinkedId" class="src" />
-        </div>
-        <div class="platforms">
-            <img src="./images/instagram.png" alt="Instagram" class="src" />
+
+        <div class="footerCopyRight">
+            &copy; 2019 All Rights Reserved Desgin by Free Html Templates
         </div>
     </div>
-
-    <div class="footerCopyRight">
-        &copy; 2019 All Rights Reserved Desgin by Free Html Templates
-    </div>
-</div>
 
 
 </body>

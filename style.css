@@ -46,7 +46,7 @@ padding: 0 2% 17% 2%;
 background-image: url(./images/layer_1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-position: relative
+position: relative;
 
 }
 
@@ -580,7 +580,7 @@ width: 20%;
 
   .reviewBorder{
     width: 163px;
-    height: 10rem;
+    height: 10.1rem;
     background-color: #f7672c;
     z-index: 0;
     position: absolute;
@@ -766,6 +766,8 @@ width: 20%;
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    cursor: pointer;
+
   }
 
   .footerCopyRight
@@ -778,8 +780,32 @@ width: 20%;
     padding-top:25px
   }
 
-  .navbarMobile,.mobileIntroPic,.arrivalSubtextMobile,.aboutMobileBird
+  .navbarMobile,.mobileIntroPic,.arrivalSubtextMobile,.aboutMobileBird,.navbarMobileContainer
 
   {
     display: none;
   }
+
+  .introDate
+
+  {
+    position: absolute;
+    bottom: 51px;
+    left: 32px;
+    line-height: 14px;
+    letter-spacing: 2px;
+  }
+
+  .introDateSecond{
+    position: absolute;
+    top: 140px;
+    right: 72px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+  }
+
+  .introDateSecond > pre
+{
+  color: #a89898;
+}

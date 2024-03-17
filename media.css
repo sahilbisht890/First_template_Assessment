@@ -8,7 +8,7 @@
     }
 
     .navbar ,.navbarThreeLine,.introSlider,.topNav,.introPlayButton,.arrivalSubtext,.notForMobile
-    ,.infoText
+    ,.infoText,.introDateSecond,.introDate
     {
         display: none;
     }
@@ -214,4 +214,89 @@ justify-content: center;
   {
       width: 80%;
   }
+
+
+  .navbarMobileContainer
+  {
+    display: block;
+
+  }
+
+
+  .navigation {
+    position: fixed;
+    left: -250px; 
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #333;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.navigation label {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 4rem;
+
+ 
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 4rem 0;
+}
+
+.navigation ul li {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Show the navigation when checkbox is checked */
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked + .navigation {
+    left: 0;
+}
+.aboutHeading,.pictureSection
+{
+margin-bottom: 4%;
+}
+.introMainContent
+{
+    padding: 5% 0;
+}
+.threeDots {
+    width: 53px;
+    height: 11px;
+}
+.platforms .src {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.footerCopyRight
+{
+    width: 80%
+
+}
+
 }
