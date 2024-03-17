@@ -81,7 +81,7 @@
 
 .introHeading
 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
 }
 
 .mobileIntroPic
@@ -127,7 +127,7 @@
 .aboutBirds,.ourBirdAndAnimal,.birdPictureSection,.reviewSection,.subsSection
 
 {
-    padding:4% 5%;
+    padding:8% 5%;
 }
 
 .info
@@ -175,13 +175,13 @@ justify-content: center;
     box-shadow: 2px 3px 5px black;
 }
 .userImage {
-    left: 11%;
-    top: 16%
+    left:9%;
+    top: 17%
 }
 
 .reviewBorder {
     top: 21%;
-    left: 9%;
+    left: 7%;
     width: 144px
   }
   .reviewHeading
@@ -298,5 +298,24 @@ margin-bottom: 4%;
     width: 80%
 
 }
+.introHeading
+{
+    width: 80%;
+}
+
+.sliderBox {
+    width: 40%;
+    height: 40%
+}
+
+.slider img {
+    width: 30%;
+    height: 35%;
+}
+
+.reviewName{
+    margin-bottom:10px ;
+}
+
 
 }
