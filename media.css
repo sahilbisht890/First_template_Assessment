@@ -1,0 +1,121 @@
+@media only screen 
+  and (max-device-width: 767px) {
+
+    html{
+        font-size: 14px;
+    }
+
+    .navbar ,.navbarThreeLine,.introSlider,.topNav,.introPlayButton,.SubtextNotForMobile,.notForMobile
+    {
+        display: none;
+    }
+
+.navbarMobile,.arrivalSubtextMobile,.aboutSubtext
+{
+ display: block;    
+ font-size: 1rem;
+ text-align: justify;
+}
+
+.topIntroPage{
+    display: flex;
+    flex-direction: column;
+    padding:2% 5%;
+    background-image: none;
+    background-color: #032735;
+    height: 90vh;
+
+}
+.topIntroPage  > div ,.aboutSubtext,.readMore
+{
+    width: 100%;
+}
+
+.topLeftContent
+{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.introMainContent > div ,.introMainContent,.introLine > div
+{
+ width: 100%;
+}
+
+.introHeading
+{
+    font-size: 3.5rem;
+}
+
+.mobileIntroPic
+{
+    margin-top: 5%;
+    display: block;
+    border-radius: 5px;
+}
+.introSubtext
+{
+    font-size: 1rem;
+}
+
+
+#birdmobile
+
+{
+    width: 75%;
+    height: 20rem;
+
+}
+#slide
+{
+    width: 30%;
+    height: 10rem;
+
+}
+
+.animalName
+{
+    font-size: 2rem;
+
+}
+
+.aboutBirds
+{
+    background-image: url(./images/rectangle_8.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:100% 100%;
+}
+
+.aboutBirds,.ourBirdAndAnimal,.birdPictureSection
+
+{
+    padding:4% 5%;
+}
+
+.aboutBirds ,.aboutBirds > div
+{
+    width: 100%;
+}
+
+.aboutBirds .readMore
+{
+    width: 25%;
+    padding:2% 0
+}
+
+.aboutMobileBird
+{
+    display: block;
+    width: 100%;
+    height: 18rem;
+}
+
+.OurBirdAndAnimal
+{
+    font-size: 1.5rem;
+}
+
+
+
+}
