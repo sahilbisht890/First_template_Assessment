@@ -42,7 +42,7 @@ body > div ,.introLine > div ,.introLine,.newArrivalContentContainer > div,.Arri
 {
 
 width: 100%;
-padding: 0 2% 17% 2%;
+padding: 0 2% 18% 2%;
 background-image: url(./images/layer_1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -84,7 +84,7 @@ ul{
 
 .introMainContent{
     clear: both;
-    width: 48%;
+    width: 45%;
     padding: 19.5% 0 0 1%
 
 }
